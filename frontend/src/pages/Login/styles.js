@@ -1,12 +1,5 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-    width:100%;
-    max-width: 1110px;
-    height: 100vh;  
-    margin: 0 auto;
-`
-
 export const Content = styled.div`
     width: 100%;
     height: 100%;
@@ -28,46 +21,11 @@ export const Form = styled.form`
     flex-direction: column;
     justify-content: center;
 
-    input {
-        padding: 15px;
-        margin: 10px 0;
-        font-size: 14px;
-
-        background: #fdfffc;
-
-        border: 2px solid #000500;
-        border-radius: 15px;
-
-        transition: border-color .2s
-    }
-
-    input:focus {
-        border-color: #6C63FF;
-    }
-
-`
-
-export const Button = styled.button`
-    padding: 15px;
-    margin-bottom: 10px;
-
-    font-size: 16px;
-    color: #fff;
-
-    border: none;
-    background: #6C63FF;
-    border-radius: 15px;
-
-    transition: opacity .2s;
-
-    &:hover {
-        opacity: 0.9;
-    }
 `
 
 export const Logo = styled.h1`
     position: absolute;
-    width: 80px;
+    color: #6C63FF;
     top: 100px;
 `
 
